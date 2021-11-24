@@ -31,7 +31,7 @@ Dentro de nuestra terminal podemos: revisar nuestra estructura de archivos, aña
   $ mkdir [nombre de la carpeta]
 ```
 
-"Touch" creará un nuevo archivo.
+"Touch" creará un nuevo archivo...
 ```bash
   $ touch [nombre del archivo]
 ```
