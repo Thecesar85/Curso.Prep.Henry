@@ -240,7 +240,7 @@ function logHola() {
 logHola();
 ```
 
-En este ejemplo declaramos una función `logHola` y la configuramos en` console.log` `'hello'`. Entonces podemos ver que para ejecutar esta función, necesitamos escribir el nombre y los paréntesis. Esta es la sintaxis para ejecutar una función. Una función siempre necesita paréntesis para ejecutarse.
+En este ejemplo declaramos una función `logHola` y la configuramos en` console.log` `'hola!'`. Entonces podemos ver que para ejecutar esta función, necesitamos escribir el nombre y los paréntesis. Esta es la sintaxis para ejecutar una función. Una función siempre necesita paréntesis para ejecutarse.
 
 ### Argumentos
 
