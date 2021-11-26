@@ -22,37 +22,46 @@ const nuevoModulo = 21 % 5 === 1 ;
 // En los próximos 22 problemas, deberás completar la función.
 // Todo tu código irá dentro de las llaves de la función.
 // Asegúrate que usas "return" cuando la consola te lo pida.
-// Pista: "console.log()" NO fucionará.
+// Pista: "console.log()" NO fucionará.  //  preguntar y cuendo es que la consola lo pide ?
 // No cambies los nombres de las funciones.
 
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  
+  var MiTexto = 'Te devuelvo esto que es texto' ;
+  return  MiTexto;
 }
 
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
+  var misuma = x + y ;
+  return misuma ;
   
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
+  var miresta = x - y;
+  return miresta;
   
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
+  var mimultiplicacion = x * y;
+  return mimultiplicacion;
   
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
+  var midivicion = x / y;
+  return midivicion;
   
 }
 
@@ -60,33 +69,68 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  if (x == y)
+  {
+    var son =  true;
+    return son;
+  }  
+
 }
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
+  var palabra1 = str1;
+  var palabra2 = str2;
   
+  if (palabra1.length ==  palabra2.length)
+  {
+    son = true;
+    return son;   // Aqui tengo duda 
+  } 
+    else
+    {
+    son = false;  
+    return son;   // preguntar si ambas estan bien o si hay alguna diferencia  con los rerurn asi
+    }  
 }
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  if (num < 90)
+  {
+    return true;
+  }
+    else
+    {
+      return false;
+    }
 }
 
 function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
+  if (num > 50)
+  {
+    return true;
+  }
+    else
+    {
+      return false;
+    }
+
   
 }
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
+  var mimodulo = x % y;
+  return mimodulo;
   
 }
 
@@ -94,7 +138,16 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  mipar =  num % 2;
+  if ( mipara == 0 )
+  {
+    return true;
+  }
+    else
+    {
+    return false;  
+    }
+    
 }
 
 function esImpar(num) {
