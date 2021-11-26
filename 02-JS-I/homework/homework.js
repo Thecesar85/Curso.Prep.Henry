@@ -28,8 +28,8 @@ const nuevoModulo = 21 % 5 === 1 ;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  var MiTexto = 'Te devuelvo esto que es texto' ;
-  return  MiTexto;
+ 
+  return  str;
 }
 
 function suma(x, y) {
@@ -73,7 +73,7 @@ function sonIguales(x, y) {
   {
     var son =  true;
     return son;
-  }  
+  }  return false;
 
 }
 
@@ -138,31 +138,27 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  mipar =  num % 2;
-  if ( mipara == 0 )
+  if (num%2 == 0)
   {
-    return true;
+  return true;
   }
-    else
-    {
-    return false;  
-    }
-    
+else
+  return false;
+   
 }
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  miinpar =  num % 2;
-  if ( miinpara == 0 )
+  if (num%2 == 0)
   {
-    return false;
+  return false;
   }
-    else
-    {
-    return true;  
-    }
+else
+  return true;
+   
+
   
 }
 
@@ -248,7 +244,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  var mitxt =  'Hola ' + nombre; 
+  var mitxt =  'Hola ' + nombre+'!'; 
   return mitxt;
 }
 
