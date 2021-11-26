@@ -1,0 +1,41 @@
+Variables 
+
+Las variables son como las hojas de tu cuaderno, en ella puedes escibir cosas 
+como numeros, letras u otras cosas, cada ves que escribes en ellas adquieren 
+ese valor, por ejemplo si escribes un cuento, esa hoja sera texto, si escribes 
+tus problemas de matematicas entoces esa hoja tendra un valor  de numeros, ahora 
+cuando escribes con pluma ya no puedes cambiar ese valor, pero di lo haces con un 
+lapiz entoces tu vatiable/hoja podras modificarla cuando quieras, es lo mismo 
+cuando programas. 
+
+Strings
+
+Cuando lees, lo hacemos gracias a las letras, esto es por que en ellas estan 
+fromadas mediante letras, es asi que distingimos cuanquier otra cosa de las 
+palabras, porque en ella simpre veremos letras asi que ya sabes que es una 
+palabra (str)
+
+Funciones 
+
+las funciones, son como las veces que tu mama te manda a hacer un recado, por 
+ejemplo: si tu mama te pide ir por tortillas,  te da dimero, te pide que vuelvas
+con algo ( las tortilas ), es exactamente lo mismo 
+
+es decir una *funcion es una  instruccion que podria estar o no compuesta por pasos
+( tu ma pide hacer algo ), la funcion tiene *Argumentos que otorgan para realizar el
+trabajo  ( el dinero que te da porque sabe que lo ocuparas ), y la funcion tiene 
+return que es lo que la funcion espra o no que devulvas ( son las tortillas que tu 
+mama te pidio )
+
+Declaraciones if
+
+una declaracion if, es literalmente una pregunta, te gusan los taquitos ?, la respuesta
+es un claro SI!! ( True ), pero pueden haber mas preguntas, como eres mas alto que tu 
+hermano  ( puede ser un no = False ),  puede ser si tienes mas de diez años entoces 
+come pastes . pero antes si no te has lavado las manos hazlo, esas son declaraciones if
+
+Valores booleanos 
+
+los valores booleanos son terminos sencillos, te gustan las hamburgezas ?, la respuesta
+si la respuesta es no pues el valor booleanos para eso es False, pero si si te gustan
+entonces el valor booleanos para la respuesta es True, facil verdad :) 
