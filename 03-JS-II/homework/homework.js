@@ -191,12 +191,52 @@ function esPrimo(numero) {
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
   
+  // Nota importante (por Augusto Salazar)!!, hice trampa, no logre encontrar la solucion por mi mismo
+  // emplee un video en yutube, meritos para: JavaScript - Ejercicio 971, el lin es el siguinete:
+  // https://www.youtube.com/watch?v=4UassTaI9Js   --> me base en el para lograrlo
+
+ /* if (typeof numero != 'number')  // buena adicion me gusto este canddo de seguridad 
+  {
+    throw TypeError (' El argumento debe ser un número. ');
+  }
+  
+  if (!Number.isInteger(numero)) // buena adicion me gusto este canddo de seguridad X 2
+  {
+    throw TypeError (' El argumento debe ser un número entero. ');
+  }*/
+
+  if (numero === 1 || numero === 0 || numero === 4)
+  {
+    return false;
+  }
+
+  let raiz = Math.floor(Math.sqrt(numero)) + 1;
+  for (let i = 2; i < raiz; ++i )
+  {
+    if (numero % i === 0)
+    {
+      return false;
+    }
+  }
+  return true;
+
+  
 }
 
 function esVerdadero(valor){
   //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
   //si su valor es true y “Soy falso” si su valor es false.
   //Escribe tu código aquí
+  if (valor === true)
+  {
+    return 'Soy verdadero';
+  }
+
+  if (valor === false)
+  {
+    return 'Soy falso';
+  }
+  
 
 }
 
@@ -204,12 +244,25 @@ function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
-  
+  let miArray = []; 
+  for (let i = 0 ; i <= 10 ; i++)
+  {
+     miArray[i]= (i * 6);
+  }
+  return miArray; 
 }
 
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
+
+  var letra = numero.toString(); 
+  var num =  letra.length;
+  if (num === 3 )
+  {
+    return true;
+  } else return false;
+
   
 }
 
@@ -217,6 +270,20 @@ function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
+
+  // me parecio muy cool que parte de la tarea sea buscar nosotros mismos fuentes para hacer la tarea 
+
+    let result;
+    let i = 0;
+
+    do {
+      i = i + 1;
+      numero = numero + 5;
+    } while (i <= 7);  // aqui puse 7 por que e cero cuenta como una sifraa por yanto del 0 al 7 son 8
+    return numero;
+   
+
+
 }
 
 
