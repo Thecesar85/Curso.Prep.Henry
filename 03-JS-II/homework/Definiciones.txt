@@ -1,2 +1,33 @@
-* `for`
-* `&&`, `||`, `!`
+Definicion --> For
+
+Un ciclo 'for' es como cuando le pides a tu mama que te haga hot kakes,
+por ejemplo, le pides que te haga 10 hot kakes, tu mama sabe que en tu plato
+en el inicio hay '0' hot kakes, ella comienza el proceso, entonces prepara uno 
+revisa tu plato (llamaddo i), y ahora tines uno, despues vuelve a hacer uno 
+mas, re visa tu plato (i) y ahora tienes 2, bueno esto lo hara una y otra vez
+el proceso de hacer hot kakes hasta que vea en tu plato 10 hot kakes, lo 
+ue tu mamam hizo, el tener un plato vacio, preguntar cuanto quieres, y despues 
+hacer los hot cakes hasta complir con el numero, eso eso que hizo es un ciclo 
+for.
+
+Definicion --> && (Operador 'And')
+
+Por ejemplo, si a tu mama le pides los hot kakes pero ademas quieres 
+una malteada de leche, pues le diras que quieres hot kakes  'Y'(&& And)
+una malteada, modificas la peticon y ahora icluyes una variable para que 
+tabien sea cumplida, Hot && Malteada eso es un operador and.
+
+Definicion --> ||  (Operador 'Or')       !`
+
+
+Ahora tu mama, hara los Hot kakes y la malteada, pero no sabe el sabor 
+de la malteada, asi que tu le dices, mama  quiero una malteada de fresa
+'O' (|| Or) de chocolate, asi que lle das a elegi a ella cualquiiera de esas
+opcione, eso es un or.
+
+Definicion --> ! (Operador 'Not')
+
+tu mama ya te hara hot kakes, una malteada de fresa o chocolate pero recuerdas 
+que a ti a diferencia de tu hermana no te gustan las chispas de dulce en tus 
+hot kakes, asi que le dices a tu mama, 'No' (! Not) le pongas por favor chispas 
+a mis hot kakes, asi que ella no eso, eso es una operacion Not.
