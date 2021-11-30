@@ -269,7 +269,7 @@ function tieneTresDigitos(numero){
 function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
-  //Usar el bucle do ... while.
+  //Usar el bucle do ... while. 
 
   // me parecio muy cool que parte de la tarea sea buscar nosotros mismos fuentes para hacer la tarea 
 
