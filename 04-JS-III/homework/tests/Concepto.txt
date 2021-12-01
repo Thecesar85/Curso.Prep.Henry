@@ -1,0 +1,13 @@
+Concepto Arrays
+
+Para entender mejor que es un array pedes pensar en un acaja con dulces 
+en la caja, podria haber cualquier cosa, como en el array en el que podemos 
+tener numeros, palabras, booleanos .. etc  o conbinaciones de ellos, es decir 
+en la caja puedes tener chocolates, bombones, u otros dulces y su convinacion 
+de ellos, ahora tu metes un chocolate, despues un bombon y despues una paleta
+en esta caja especuil estan ben acomodados, y ahora quieres sacar un bombon, 
+sabes que esta en la segunda posicion de la caja, asi que no tienes que sacar 
+todo para comer tu bombon, pues esta en la segunda psocion y sin problemas
+lo puedes agarrar, y ahora en ves del bombon metes otro chocolate, es mas puedes 
+recorrerlos, cambairlos de ubicacion y lo que gustes, bueno un array funciona
+de ese mismo modo, ahora puedes decir que entiendes que es un array, felicidades. 
